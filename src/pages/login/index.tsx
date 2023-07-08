@@ -90,7 +90,7 @@ export function Login() {
         </form>
 
         <Link to="/register">
-          Ainda não possui uma conta? Cadastre-se
+          <p className='text-white'>Ainda não possui uma conta? Cadastre-se</p>
         </Link>
 
       </div>

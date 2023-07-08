@@ -8,7 +8,7 @@ import {Register} from './pages/register'
 
 import {Layout} from './components/layout'
 import { Private } from './routes/Private'
-import { Nova } from './pages/nova'
+import { Nova } from './pages/dashboard/nova'
 
 const router = createBrowserRouter([
   {
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     },
 
     {
-      path: '/contents/:id',
+      path: '/content/:id',
       element: <Private><Contents></Contents></Private>
     },
 

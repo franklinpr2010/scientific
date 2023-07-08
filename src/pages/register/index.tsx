@@ -6,6 +6,7 @@ import { Container } from '../../components/container'
 import { Input } from '../../components/input'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod';
+import toast from 'react-hot-toast'
 import { zodResolver } from '@hookform/resolvers/zod'
 
 import { auth } from '../../services/firebaseConnection'
@@ -51,7 +52,7 @@ export function Register() {
         email: data.email,
         uid: user.user.uid
       })
-      
+      toast.success("Usuário cadastrado com sucesso!")
       console.log("CADASTRADO COM SUCESSO!")
       navigate("/dashboard", { replace: true })
 
