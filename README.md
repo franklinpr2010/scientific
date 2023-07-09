@@ -18,6 +18,9 @@ Acesse: http://localhost:5173/
 Link para acessar o protótipo do figma.
 https://www.figma.com/files/team/1259641846307365916
 
+Link para acessar o vídeo.
+https://drive.google.com/file/d/1H8BUBhrc5XzymiEpOuC26F18GWCmvWWl/view?usp=drive_link
+
 
 
 
